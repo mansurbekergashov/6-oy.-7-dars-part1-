@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import img from "/src/assets/Car-2.png";
+
 
 const Card = styled.div`
   display: inline-block;
@@ -84,7 +86,7 @@ const CardBtn = styled.a`
 function Span2() {
   return (
     <Card>
-      <CardImg src="./public/images/Car-2.png" alt="Car" />
+      <CardImg src={img} alt="Car" />
       <CardTitle>SUVS</CardTitle>
       <CardText>
         Take an SUV for its spacious interior, power, and versatility. Perfect

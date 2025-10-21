@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import img from "/src/assets/Car-1.png";
+
 
 const Card = styled.div`
   display: inline-block;
@@ -91,7 +93,7 @@ const CardBtn = styled.a`
 function Span1() {
   return (
     <Card>
-      <CardImg src="./public/images/Car-1.png" alt="Car" />
+      <CardImg src={img} alt="Car" />
       <CardTitle>SEDANS</CardTitle>
       <CardText>
         Choose a sedan for its affordability and excellent fuel economy. Ideal

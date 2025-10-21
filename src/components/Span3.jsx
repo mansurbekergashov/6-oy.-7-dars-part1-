@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import img from "/src/assets/Car-3.png";
+
 
 const Card = styled.div`
   display: inline-block;
@@ -90,13 +92,10 @@ const CardBtn = styled.a`
 
 
 
-
-
-
 function Span3() {
   return (
     <Card>
-      <CardImg src="./public/images/Car-3.png" alt="Car" />
+      <CardImg src={img} alt="Car" />
       <CardTitle>LUXURY</CardTitle>
       <CardText>
         Cruise in the best car brands without the bloated prices. Enjoy the
